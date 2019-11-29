@@ -1,0 +1,5 @@
+.cob-app .instance-detail-container .instance-container .fields-container .tasks-item {
+    background-color: #eff3f5;
+    border-radius: 6px;
+    border: solid 1px lightblue;
+}
