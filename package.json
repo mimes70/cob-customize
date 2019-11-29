@@ -1,0 +1,41 @@
+{
+  "name": "@mimes70/cob-customize",
+  "version": "1.1.0",
+  "description": "A CLI to help customize Cult of Bits projects",
+  "main": "src/index.js",
+  "bin": {
+    "@mimes70/cob-customize": "bin/cob-customize",
+    "cob-customize": "bin/cob-customize"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:list-input": "node src/test-listr-input.js"
+  },
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "execa": "^3.4.0",
+    "got": "^9.6.0",
+    "inquirer": "^7.0.0",
+    "listr": "^0.14.3",
+    "listr-input": "^0.2.0",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "author": "CoB",
+  "license": "UNLICENSED",
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "keywords": [
+    "cob",
+    "cli",
+    "cob-customize"
+  ]
+}

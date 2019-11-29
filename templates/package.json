@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "proxy": "webpack-dev-server --config cob-config/webpack.config.js --open \"Google Chrome\" --public http://localhost:$npm_package_config_port/recordm"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "config": {
+    "port": "8080",
+    "repo": "REPO",
+    "remote_server": "SERVER"
+  }
+}
